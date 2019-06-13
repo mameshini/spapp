@@ -1,0 +1,41 @@
+parameters:
+  - name: application.description
+    value: Java microservice with Spring Boot
+  - name: application.ecr.path
+    value: spapp
+  - name: application.ingress
+    value: spapp.app.dev4.demo10.superhub.io
+  - name: application.name
+    value: spapp
+  - name: application.namespace
+    value: applications
+  - name: application.path
+    value: /
+  - name: application.replicas
+    value: '1'
+  - name: component.dex.okta.appId
+    value: 0oa342u227BWaWsTm2p7
+  - name: component.dex.okta.clientId
+    value: 0oa342u227BWaWsTm2p7
+  - name: component.dex.okta.clientSecret
+    value: C5jp0khDeNjp2vBEycCvOikMQHn-7X2oDPNoU3Lh
+  - name: component.dex.okta.issuer
+    value: 'https://agilestacks.okta.com'
+  - name: component.github.repository.name
+    value: spapp
+  - name: component.github.repository.organization
+    value: mameshini
+outputs:
+  - name: application.description
+  - name: application.ecr.path
+  - name: application.ingress
+  - name: application.name
+  - name: application.namespace
+  - name: application.path
+  - name: application.replicas
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.clientSecret
+  - name: component.dex.okta.issuer
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
